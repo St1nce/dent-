@@ -1,0 +1,776 @@
+body {
+    font-family: Bebas Neue, sans-serif;
+}
+
+.container-main {
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+
+/* ----------------------------------------------------------- */
+/* header */
+.header {
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(170deg, rgba(255, 255, 255, 0.00) 16.67%, rgba(255, 255, 255, 0.26) 50.31%, rgba(255, 255, 255, 0.00) 84.38%), #5086E1;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.none {
+    display: none;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    padding-top: 25px;
+    line-height: normal;
+}
+
+.header-left-text {
+    display: flex;
+    column-gap: 9.5px;
+    text-transform: uppercase;
+    line-height: 59.268px;
+}
+
+.header-left-text p:first-child {
+    font-size: 41.488px;
+    font-weight: 700;
+    line-height: 59.268px;
+    font-style: normal;
+}
+
+.header-left-text p:last-child {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.header-left-text img {
+    width: 7px;
+    height: 60px;
+}
+
+.header-right {
+    padding-top: 10.5px;
+}
+
+.header-right-wrapper {
+    display: flex;
+    column-gap: 100px;
+}
+
+.header-right-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.heder-right-city p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.header-right-adrees {
+    display: flex;
+    column-gap: 14px;
+    font-family: Open Sans;
+}
+
+.header-right-adrees p {
+    line-height: 25px;
+}
+
+.header-right-phone {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.header-phone {
+    border-radius: 15px;
+    background: linear-gradient(168deg, rgba(151, 234, 255, 0.00) 0%, rgba(151, 234, 255, 0.14) 55.52%, rgba(151, 234, 255, 0.00) 100%), #FFF;
+    box-shadow: 0px 1px 6px 0px rgba(255, 255, 255, 0.25);
+    padding: 12.78px 23.19px 13.22px 23.39px;
+    color: #5086E1;
+}
+
+.header-right-phone p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+/* header */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/* First section */
+.banner-1 {
+    width: 100%;
+    background-blend-mode: multiply;
+    background: url('/src/img/back.png') repeat 100% / 100%,
+        url('/src/img/thinlForMouth.png') no-repeat 100% 0,
+        url('/src/img/glasses.png') no-repeat 0 100%;
+}
+
+.banner-wrapper {
+    padding: 100px 0 210px 0;
+    background: url('/src/img/friendly-grandmother.png') no-repeat 105% 100%;
+}
+
+.banner-1-title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.banner-1-title h1 {
+    color: #4A4A4A;
+    font-size: 133.395px;
+    font-weight: 700;
+    line-height: 140px;
+    letter-spacing: 0.92px;
+}
+
+.banner-1-title span {
+    display: inline-block;
+    color: #1A1A1A;
+    font-size: 52.438px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.92px;
+}
+
+.banner-1-text {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.banner-1-text h3 {
+    color: #6E6E6E;
+    color: rgb(80, 134, 225);
+    color: rgb(31, 91, 225);
+
+
+    font-family: Bebas Neue;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.banner-1-text img {
+    transform: rotate(180deg);
+}
+
+.banner-1-text p {
+    font-family: Bebas Neue;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: rgb(80, 134, 225);
+
+}
+
+.banner-1-descr {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 40px;
+}
+
+.banner-1-descr-each {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+}
+
+.banner-1-descr-each p {
+    color: #6D6D6D;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-btn {
+    border-radius: 28px;
+    background: linear-gradient(160deg, rgba(151, 234, 255, 0.00) 0%, rgba(151, 234, 255, 0.27) 52.92%, rgba(151, 234, 255, 0.00) 100%), #5086E1;
+    padding: 31px 53px 30px 53px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* First section */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/* ABOUT-US */
+.about-us {
+    width: 100%;
+    color: #000;
+}
+
+.about-us-wrapper {
+    padding: 80px 0 60px 0;
+}
+
+.main-subtitle {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 80px;
+}
+
+.main-subtitle h2 {
+    font-family: Bebas Neue;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.about-as-descr {
+    display: flex;
+    column-gap: 30px;
+    align-items: top;
+}
+
+.about-as-text {
+    display: flex;
+    column-gap: 25px;
+    margin-top: 20px;
+}
+
+.about-as-description {
+    font-family: Open Sans;
+    font-size: 25px;
+    margin-top: -15px;
+
+    line-height: normal;
+}
+
+.about-as-description h5 {
+    font-weight: 700;
+}
+
+.about-as-description p {
+    font-weight: 400;
+}
+
+.about-as-img {
+    margin-top: -50px;
+}
+
+/* ABOUT-US */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/* Advantages */
+.advantages {
+    margin-bottom: 80px;
+}
+
+.advantages-all {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 26px;
+    row-gap: 30px;
+}
+
+.advantages-each {
+    border-radius: 46.178px;
+    background: #FEFEFE;
+    box-shadow: 0px 1px 10px 0px rgba(177, 177, 177, 0.25);
+    padding: 34px 20px 156px 50px;
+    width: 390px;
+}
+
+.advantages-each h4 {
+    color: #0355D8;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 121.182%;
+    text-transform: uppercase;
+}
+
+.advantages-all .advantages-each-blue h4 {
+    color: #fff;
+}
+
+/* Advantages */
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/* We do */
+.we-do-content {
+    display: flex;
+    column-gap: 62px;
+}
+
+.we-do-left {
+    position: relative;
+    border-radius: 58.212px;
+    background: linear-gradient(100deg, #4F86E1 0%, #98C5FC 100%);
+    box-shadow: 0px 5.042425155639648px 12.606062889099121px 0px rgba(177, 177, 177, 0.25);
+    padding-top: 44px;
+    width: 495px;
+    height: 617px;
+}
+
+.we-do-left h5 {
+    text-align: center;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 31.515px;
+    font-weight: 700;
+    line-height: 42.861px;
+    text-transform: uppercase;
+}
+
+.we-do-left img {
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+}
+
+.we-do-right {
+    display: grid;
+    grid-template-columns: 469px 557px;
+    grid-column-gap: 62px;
+    grid-row-gap: 27px;
+}
+
+.we-do-each {
+    position: relative;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 21px 0px rgba(107, 107, 107, 0.14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.we-do-each img {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+
+.image {
+    width: 30px !important;
+    margin-bottom: -15px;
+    border-radius: 50%;
+
+}
+
+.image2 {
+    width: 40px !important;
+    margin-bottom: -20.5px;
+    border-radius: 50%;
+}
+
+.we-do-each h5 {
+    color: #5087E2;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 31.515px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42.861px;
+    text-transform: uppercase;
+}
+
+.we-do-btn {
+    margin: 60px auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bnt-check {
+    width: 400px;
+}
+
+/* We do */
+/* ----------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------- */
+/* Clients-feedback */
+.clients {
+    margin-bottom: 80px;
+}
+
+.clients-slider-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.feedback-slider-item {
+    width: 50%;
+    padding: 34px 50px 28px 50px;
+    border-radius: 46.178px;
+    background: #F9F9F9;
+    box-shadow: 0px 1px 10px 0px rgba(177, 177, 177, 0.25);
+}
+
+.feedback-slider-item-top {
+    display: flex;
+    column-gap: 14px;
+    color: #5087E2;
+    font-family: Open Sans;
+    line-height: 22px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.feedback-slider-item-top h5 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+.feedback-slider-item-top p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.feedback-slider-item-text {
+    color: #6B6B6B;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ----------------------------------------------------------- */
+/* Слайдер общие стили */
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+    column-gap: 37px;
+}
+
+/* Слайдер общие стили*/
+/* ----------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------- */
+/* Конкретный feedback слайдер*/
+.feedback-slider {
+    position: relative;
+}
+
+.feedback-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
+
+.feedback-slider .slick-arrow.slick-prev {
+    left: -10px;
+    background: url('/src/img/prev-arrow.svg') 0 0 / 100% no-repeat;
+}
+
+.feedback-slider .slick-arrow.slick-next {
+    right: -10px;
+    background: url('/src/img/next-arrow.png') 0 0 / 100% no-repeat;
+}
+
+.license-slide {
+    text-align: center;
+}
+
+/* Конкретный feedback слайдер*/
+/* ----------------------------------------------------------- */
+
+/* Clients-feedback */
+/* ----------------------------------------------------------- */
+
+
+
+
+
+
+
+/* license */
+/* ----------------------------------------------------------- */
+
+.license {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 80px;
+}
+
+.license-slider {
+    position: relative;
+}
+
+.license-slide {
+    width: 300px;
+}
+
+.license-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+}
+
+.license-slider .slick-arrow.slick-prev {
+    left: -10px;
+    background: url('/src/img/prev-arrow.svg') 0 0 / 100% no-repeat;
+}
+
+.license-slider .slick-arrow.slick-next {
+    right: -10px;
+    background: url('/src/img/next-arrow.png') 0 0 / 100% no-repeat;
+}
+
+/* license */
+/* ----------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------- */
+/* consultation */
+
+.consultation {
+    margin-bottom: 80px;
+}
+
+.consultation-wrapper {
+    border-radius: 44px;
+    background: #F8F8F8;
+    padding-bottom: 70px;
+    padding-top: 48px;
+}
+
+.consultation-title h2 {
+    color: #000;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.consultation-title span {
+    color: #5087E2;
+}
+
+.consultation-title p {
+    color: #808080;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.consultation-forms {
+    margin-top: 42px;
+}
+
+.main-form {
+    display: flex;
+    column-gap: 18px;
+    justify-content: center;
+}
+
+.each-form-wrapper input {
+    border-radius: 15px;
+    border: 1px solid #5086E1;
+    padding: 29px 0 29px 29px;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 393px;
+}
+
+.consultation-forms-text {
+    margin-top: 20px;
+}
+
+.consultation-forms-text p {
+    color: #7F7F7F;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25.399px;
+}
+
+.blue-line {
+    height: 8px;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+
+    background: #5086E1;
+}
+
+/* consultation */
+/* ----------------------------------------------------------- */
+
+
+
+
+
+/* ----------------------------------------------------------- */
+/* footer */
+.footer {
+    background: linear-gradient(98deg, #337EF8 0%, #88BCFF 100%);
+    color: white;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-left {
+    display: flex;
+    column-gap: 154px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.footer-info-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.footer-info-text {
+    width: 380px;
+}
+
+.footer-info-text p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-adress {
+    padding-top: 20px;
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.footer-adress-city,
+.footer-adress-phone {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    margin-left: -45px;
+}
+
+.footer-adress-phone {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.45px;
+}
+
+.footer-adress-phone img {
+    width: 60px;
+    margin-left: -13px;
+}
+
+.footer-adress-phone p {
+    margin-left: -18px;
+}
+
+.footer-adress-city {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.877px;
+}
+
+.footer-adress .header-right-adrees {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.951px;
+}
+
+.footer-right {
+    padding-top: 20px;
+}
+
+.footer-feedback-btn button {
+    display: flex;
+    border-radius: 28px;
+    background: #FFF;
+    box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 0.44);
+    padding: 30px 76px;
+    justify-content: center;
+    align-items: center;
+    color: #3F87F9;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-feedback-btn p {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23.309px;
+    font-weight: 400;
+    line-height: 34.323px;
+}
+
+/* footer */
+/* ----------------------------------------------------------- */
